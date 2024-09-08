@@ -1,0 +1,1 @@
+# coopsens-hardware-manager
