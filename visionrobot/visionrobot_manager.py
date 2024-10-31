@@ -9,7 +9,7 @@ from core.devices.robots.visionrobot.visionrobot import VisionRobot
 from extensions.joystick.joystick_manager import JoystickManager
 from extensions.optitrack.optitrack import OptiTrack
 import visionrobot.settings as settings
-import config as cfg
+
 
 logger = logging.getLogger('robot manager')
 logger.setLevel('INFO')
