@@ -56,6 +56,11 @@ def readInput():
                 robot.device.command('turn', {'phi': phi})
             elif cmd[0] == "goTo":
                 send_goTo(cmd)
+            elif cmd[0] == "mov":
+                dphi = float(cmd[1])
+                radius = float(cmd[2])
+                vtime = float(cmd[3])
+                robot.device.command('add_movement', {'dphi': dphi, 'radius': radius, 'vtime': vtime})
         time.sleep(0.1)
 
 
