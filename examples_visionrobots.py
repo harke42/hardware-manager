@@ -73,9 +73,7 @@ def example_1():
     def joystick_connected_callback(new_joystick, *args, **kwargs):
         global joystick
         joystick = new_joystick
-
-    def turn(robot):
-        robot.device.command('turn', {'phi': [math.pi]})
+ 
 
     manager = VisionRobotManager()
     manager.init()

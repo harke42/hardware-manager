@@ -1,0 +1,7 @@
+orjson
+cobs
+numpy
+pygame
+flask
+opencv-contrib-python
+matplotlib

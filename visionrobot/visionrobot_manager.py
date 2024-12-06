@@ -56,6 +56,7 @@ class VisionRobotManager:
         }
 
         self._thread = threading.Thread(target=self._threadFunction)
+        self.init()
 
     # === METHODS ======================================================================================================
     def registerCallback(self, callback_id, callback):
